@@ -1,0 +1,80 @@
+.footer {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Màu đậm sang trọng */
+  padding: 40px 20px;
+  color: #e0e0e0;
+  font-size: 14px;
+  border-top: 4px solid #00bcd4;
+}
+
+.footerSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.footerSection h5 {
+  margin-bottom: 12px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 10px;
+  color: #cfd8dc;
+  transition: color 0.3s ease;
+}
+
+.footerSection ul li:hover {
+  color: #00e5ff;
+  cursor: pointer;
+}
+
+.item3 {
+  border-top: 1px solid #4f5b62;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding-top: 20px;
+}
+
+.footer div:last-child {
+  grid-column: span 1;
+}
+
+.footerSection > div:last-child {
+  font-weight: bold;
+  font-size: 15px;
+  color: #00e5ff;
+  transition: all 0.3s ease;
+}
+
+.footerSection > div:last-child:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footerSection a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerSection a:hover {
+  color: #00e5ff;
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #90a4ae;
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #4f5b62;
+  line-height: 1.6;
+}

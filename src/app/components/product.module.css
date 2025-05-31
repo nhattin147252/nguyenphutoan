@@ -1,0 +1,93 @@
+.product {
+  width: 180px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f9ff; /* Xanh nhạt dễ nhìn hơn */
+  border-radius: 8px;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.mainProduct {
+  height: 300px;
+}
+
+.buyButton {
+  height: 30px;
+  color: #fff;
+  background: #28a745; /* Màu xanh mua ngay */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  transition: background-color 0.3s;
+}
+
+.buyButton:hover {
+  background: #218838;
+}
+
+.hinh {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.ten {
+  padding-top: 7px;
+  height: 30px;
+  color: #222;
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.gia {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.price {
+  color: #e53935; /* Màu đỏ đậm đẹp hơn */
+  font-weight: bold;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #9e9e9e; /* Xám trung tính */
+  font-size: 13px;
+}
+
+.discount small {
+  color: #d32f2f;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.conlai {
+  height: 25px;
+  background: linear-gradient(90deg, #ffecb3 0%, #ffc107 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+}
